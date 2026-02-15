@@ -5,7 +5,7 @@ document.addEventListener("mousemove",function(dets){
     cur.style.top=dets.y-7+"px"
     eff.style.left=dets.x-150+"px"
     eff.style.top=dets.y-150+"px"
-    //
+    
 })
 gsap.to("#nav",{
     backgroundColor:"#000",
